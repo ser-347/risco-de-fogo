@@ -5,7 +5,11 @@ import numpy as np # trabalhar com matrizes homogeneas de multidimensões
 import matplotlib.pyplot as plt
 
 
+<<<<<<< HEAD
 # FUNÇÕES DO JUPYTER NOTEBOOK PROJETO8_Preprocessamento
+=======
+# FUNÇÕES  DO JUPYTER NOTEBOOK PROJETO8_Preprocessamento.ipynb
+>>>>>>> 7099618ea214bfe180f29b98877688462f3baf4c
 
 # a função abaixo realizará os processamentos iniciais de um GeoDataframe contendo dados de foco de calor inseridos pelo usuário como argumento da função
 
@@ -101,7 +105,11 @@ def pvtbioma (bioma):
     return pvt_bioma
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 # FUNÇÕES DO JUPYTER NOTEBOOK PROJETO8_Final
+=======
+# FUNÇÕES DO JUPYTER NOTEBOOK PROJETO8_Final.ipynb
+>>>>>>> 7099618ea214bfe180f29b98877688462f3baf4c
 
 def mapasporano (focos):
 
@@ -137,9 +145,12 @@ def mapasporano (focos):
     return mapa
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 7099618ea214bfe180f29b98877688462f3baf4c
 # essa função apresenta uma média para todos os anos analisados a partir da quantidade de tabelas dinâmicas geradas. Para 5 anos analisados o usuário entra como argumento uma lista contendo tabela dinâmica para cada ano (e.g. [pvt_ano1, pvt_ano2, pvt_ano3, pvt_ano4, pvt_ano5])
 
 def mediadosanos (x):
