@@ -1,11 +1,11 @@
 # importanto bibliotecas
-import geopandas as gpd # trabalhar com GeoDataFrame (arquivo shp, Geojason, ..)
-import pandas as pd # trabalhar com DataFrame, (arquivo csv, operações em )
+import geopandas as gpd # trabalhar com GeoDataFrame
+import pandas as pd # trabalhar com DataFrame
 import numpy as np # trabalhar com matrizes homogeneas de multidimensões
 import matplotlib.pyplot as plt
 
 
-# FUNÇÕES UTEIS PARA O JUPYTER NOTEBOOK PROJETO8_Preprocessamento
+# FUNÇÕES DO JUPYTER NOTEBOOK PROJETO8_Preprocessamento
 
 # a função abaixo realizará os processamentos iniciais de um GeoDataframe contendo dados de foco de calor inseridos pelo usuário como argumento da função
 
@@ -50,7 +50,7 @@ def preproc (n):
     focos_final['riscofogo'] > 0.4,
     focos_final['riscofogo'] > 0.15]
     choices_legenda = ['1','2', '3', '4']
-    focos_final['legenda'] = np.select(conditions_legenda, choices_legenda, default=5)
+    focos_final['legenda'] = np.select(conditions_legenda, choices_legenda, default="5")
     
 # abrindo arquivo shape de unidades federativas para incluir dados de regiao no dataframe e convertendo sua projeção para a mesma dos focos de calor: EPSG:4326
     UF = gpd.read_file('uf-2018/BRUFE250GC_SIR.shp', encoding='utf-8').to_crs('EPSG:4326')
@@ -101,7 +101,7 @@ def pvtbioma (bioma):
     return pvt_bioma
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
-# FUNÇÕES UTEIS PARA O JUPYTER NOTEBOOK PROJETO8_Preprocessamento
+# FUNÇÕES DO JUPYTER NOTEBOOK PROJETO8_Final
 
 def mapasporano (focos):
 
@@ -138,7 +138,7 @@ def mapasporano (focos):
 
 
 
-# FUNÇÕES UTEIS PARA O JUPYTER NOTEBOOK PROJETO8_Final
+
 
 # essa função apresenta uma média para todos os anos analisados a partir da quantidade de tabelas dinâmicas geradas. Para 5 anos analisados o usuário entra como argumento uma lista contendo tabela dinâmica para cada ano (e.g. [pvt_ano1, pvt_ano2, pvt_ano3, pvt_ano4, pvt_ano5])
 
