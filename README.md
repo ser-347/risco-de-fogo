@@ -1,7 +1,7 @@
 # risco-de-fogo
 Acurácia do produto risco de fogo no Brasil para diferentes estados, regiões, biomas e sazonalidades
 
-Elaborado por: Eng. Florestal Bruno Vargas Adorno e MSc. Gabriel Máximo da Silva
+Discentes: Eng. Florestal Bruno Vargas Adorno e MSc. Gabriel Máximo da Silva
 
 Doscentes: Dr. Gilberto Ribeiro de Queiroz e Dr. Thales Sehn Körting
 
