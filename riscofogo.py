@@ -5,7 +5,7 @@ import numpy as np # trabalhar com matrizes homogeneas de multidimensões
 import matplotlib.pyplot as plt
 
 
-# FUNÇÕES UTEIS PARA O JUPYTER NOTEBOOK PROJETO8_Preprocessamento
+# FUNÇÕES  DO JUPYTER NOTEBOOK PROJETO8_Preprocessamento.ipynb
 
 # a função abaixo realizará os processamentos iniciais de um GeoDataframe contendo dados de foco de calor inseridos pelo usuário como argumento da função
 
@@ -101,7 +101,7 @@ def pvtbioma (bioma):
     return pvt_bioma
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
-# FUNÇÕES UTEIS PARA O JUPYTER NOTEBOOK PROJETO8_Preprocessamento
+# FUNÇÕES DO JUPYTER NOTEBOOK PROJETO8_Final.ipynb
 
 def mapasporano (focos):
 
@@ -136,9 +136,6 @@ def mapasporano (focos):
         
     return mapa
 
-
-
-# FUNÇÕES UTEIS PARA O JUPYTER NOTEBOOK PROJETO8_Final
 
 # essa função apresenta uma média para todos os anos analisados a partir da quantidade de tabelas dinâmicas geradas. Para 5 anos analisados o usuário entra como argumento uma lista contendo tabela dinâmica para cada ano (e.g. [pvt_ano1, pvt_ano2, pvt_ano3, pvt_ano4, pvt_ano5])
 
