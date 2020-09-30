@@ -18,7 +18,7 @@ def preproc (n):
 # a função 'dropna' elimina as linhas com valores sem dados (NaN ou None) de uma coluna indicada no argumento subset
 # a função 'drop' exclui colunas indicadas em uma lista, inserida no argumento 'columns', não desejadas no processamento
 # a função 'sample' permite amostrar os dados aleatoriamente, com pesos que variam de 0-1, sendo que mais próximo de 1, maior número de dados amostrados.
-    focos_final = n.dropna(subset=['riscofogo']).drop(columns=['frp','diasemchuv']).sample(frac=0.05, replace=True, random_state=1)
+    focos_final = n.dropna(subset=['riscofogo']).drop(columns=['frp','diasemchuv']).sample(frac=0.05, replace=False, random_state=1)
     
 # Para iterar e fazer operações com a variação temporal no DataFrame ou GeoData frame, a função to_datetime do Pandas permite alterar o tipo de dado (booleano, inteiro, objeto) para 'datetime64[ns]'
     focos_final['datahora'] = pd.to_datetime(focos_final['datahora']) 
