@@ -3,7 +3,7 @@ Acurácia do produto risco de fogo no Brasil para diferentes estados, regiões, 
 
 Discentes: Eng. Florestal Bruno Vargas Adorno e MSc. Gabriel Máximo da Silva
 
-Doscentes: Dr. Gilberto Ribeiro de Queiroz e Dr. Thales Sehn Körting
+Docentes: Dr. Gilberto Ribeiro de Queiroz e Dr. Thales Sehn Körting
 
 
 Este repositório contém a base de dados e Jupyter Notebook do Projeto 8 da turma SER-347-2020 entitulado: 
